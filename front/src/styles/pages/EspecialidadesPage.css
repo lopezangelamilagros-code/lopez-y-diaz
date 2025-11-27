@@ -1,0 +1,39 @@
+
+.especialidades {
+    border-radius: 5px; 
+   border: 1px solid #999; 
+    margin-top: 1px;
+}
+.Especialidad {
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.Especialidad .info {
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+    border-bottom: 1px solid beige;
+    padding-bottom: 10px;
+}
+
+.Especialidad .info p{
+    color: white;
+    font-size: 13px;
+}
+
+.Especialidad img{
+    border-radius: 15px;
+    display: block;
+    max-width: row-reverse;
+}
+
+.Especialidad:nth-child(even) {
+    flex-direction: row-reverse;
+}

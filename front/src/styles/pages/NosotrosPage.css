@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+  color: black;
+}
+.staff{
+  color: white;
+  text-align: center;
+}
+.historia p {
+  font-size: 0.75rem; /* 12px */
+}
+
+.personas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.persona {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 18%; 
+  text-align: center; 
+  padding: 0.8rem; /* 13px */ 
+  box-sizing: border-box;
+}
+
+.persona img {
+  border-radius: 50%;
+  max-width: 60%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+}
+
+.persona h5, .persona h6 {
+  margin: 0; 
+  font-weight: normal;
+  color: #2e64a1;
+}
+
+.persona h5 {
+  font-size: 0.875rem; /* 14px */ 
+  margin-top: 0.3rem; /* 5px */ 
+}
+
+.persona h6 {
+  font-size: 0.7rem; /* 11px */ 
+  font-style: italic;
+}
+
+.persona p {
+  color: white;
+  font-size: 0.625rem; /* 10px */
+}

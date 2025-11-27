@@ -1,0 +1,18 @@
+.bienvenidos {
+  position: relative;
+  text-align: center;
+  font-weight: 5000;
+  padding-right: 0.625rem;
+  box-sizing: border-box;
+  color: white;
+  background: transparent !important;
+  z-index: 1; /* evita que tape otras páginas */
+}
+
+.carousel img {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  max-height: 80%;
+}

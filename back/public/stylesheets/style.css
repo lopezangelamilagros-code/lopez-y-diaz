@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit';
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #000; /* Fondo general negro */
+  color: #fff; /* Texto blanco */
+}
+
+
+body.login-page header, body.login-page footer {
+  display: none;
+}
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #1db954; /* Verde */
+  font-weight: 400;
+}
+
+header {
+  text-align: center;
+  background-color: #111; /* Negro suave */
+  padding: 16px 0;
+  box-shadow: 0 0 10px #1db954 inset;
+}
+
+header img {
+  margin-top: 18px;
+}
+
+footer {
+  background-color: #111;
+  clear: both;
+  color: #fff;
+  box-shadow: 0 0 10px #1db954 inset;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: auto;
+}
+
+/* --------------------------
+         LOGIN
+-------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.login {
+  width: 400px;
+  margin: 50px auto;
+  font-size: 16px;
+}
+
+/* Triángulo decorativo */
+.login-triangle {
+  width: 0;
+  margin: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #1db954; /* Verde */
+}
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.login-container .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+
+.login-header {
+  background: #1db954;
+  padding: 20px;
+  font-size: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000; /* Negro */
+}
+
+
+
+.login p {
+  padding: 12px;
+  color: #000; /* Texto negro para buena lectura */
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border: 1px solid #555;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+/* Campos de texto */
+.login input[type="text"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #aaa;
+  color: #000;
+}
+
+/* Efecto focus */
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #1db954;
+}
+
+/* Botón de enviar */
+.login input[type="submit"] {
+  background: #1db954;
+  border-color: transparent;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login input[type="submit"]:hover {
+  background: #17a947;
+}
+
+/* Botón en foco */
+.login input[type="submit"]:focus {
+  border-color: #0b6e31;
+}
+
+/* Checkbox y label */
+.container {
+  display: block;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  color: #000; /* Negro sobre fondo claro */
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  margin-right: 8px;
+}

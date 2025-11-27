@@ -1,0 +1,94 @@
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    margin-right: 20px; /* Puedes ajustar este valor (ej: 10px, 15px, 20px) */
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto; /* Esto ya centra el bloque */
+}
+
+.contacto > div {
+    max-width: 800px; 
+}
+
+
+.formulario p {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 20px;
+    padding: 6px 10px;
+    color:black; 
+  
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario p:nth-child(4) { 
+    align-items: flex-start; 
+}
+
+
+.formulario .acciones {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #08b802; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+    color: white;
+    font-size: 20px;
+    padding: 8px 30px;
+    width: auto;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.formulario input[type="submit"]:hover {
+
+    background-color: #069c01; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.datos p {
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.datos ul li {
+    font-size: 13px;
+    text-align: right; /* Alineamos a la derecha para que coincida con .datos p */
+    line-height: 1.6;
+}
+
+.formulario p.redes {
+  
+    text-align:left;
+    color:white; 
+}
